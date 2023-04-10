@@ -3,7 +3,7 @@ use log4rs;
 
 #[derive(Serialize, Deserialize)]
 pub struct Server {
-    port: u16
+    pub port: u16
 }
 
 #[derive(Serialize, Deserialize)]
@@ -17,7 +17,7 @@ pub struct Log {
 
 #[derive(Serialize, Deserialize)]
 pub struct Config {
-    server: Server,
+    pub server: Server,
     log: Log
 }
 
