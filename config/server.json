@@ -1,0 +1,12 @@
+{
+    "server": {
+        "port": 8081
+    },
+    "log": {
+        "pattern": "",
+        "mode": "async",
+        "level": "info",
+        "dir": "./log/",
+        "conf_file": "config/log.yaml"
+    }
+}

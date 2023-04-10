@@ -1,0 +1,18 @@
+[package]
+name = "simple_web"
+version = "0.1.0"
+authors = ["jinghui.chen"]
+description = "Simple HTTP Server"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.1"
+clap = { version = "4.2.1", features = ["derive"] }
+config = "0.13.3"
+glob = "0.3.1"
+log = "0.4.17"
+log4rs = "1.2.0"
+serde = "1.0.159"
+serde_json = "1.0.95"
